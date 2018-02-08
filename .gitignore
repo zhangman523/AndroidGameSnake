@@ -1,0 +1,12 @@
+bin
+gen
+.gradle
+build
+.settings
+target
+*.iml
+.idea
+local.properties
+.apk
+.DS_Store
+!/.gitignore
