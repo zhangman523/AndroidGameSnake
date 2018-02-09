@@ -8,7 +8,7 @@ import android.graphics.Color;
  */
 
 public class GridSquare {
-  private int mType;
+  private int mType;//元素类型
 
   public GridSquare(int type) {
     mType = type;
@@ -16,11 +16,11 @@ public class GridSquare {
 
   public int getColor() {
     switch (mType) {
-      case GameType.GRID:
+      case GameType.GRID://空格子
         return Color.WHITE;
-      case GameType.FOOD:
+      case GameType.FOOD://食物
         return Color.BLUE;
-      case GameType.SNAKE:
+      case GameType.SNAKE://蛇
         return Color.parseColor("#FF4081");
     }
     return Color.WHITE;

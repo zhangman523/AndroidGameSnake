@@ -246,7 +246,7 @@ public class SnakePanelView extends View {
     refreshFood(mFoodPosition);
   }
 
-  private void moveSnake(@GameType.DirectionType int snakeDirection) {
+  private void moveSnake(int snakeDirection) {
     switch (snakeDirection) {
       case GameType.LEFT:
         if (mSnakeHeader.getX() - 1 < 0) {//边界判断：如果到了最左边 让他穿过屏幕到最右边
