@@ -2,7 +2,7 @@
 
 GitHub : https://github.com/zhangman523
 
-Blog   : https://zhangman523.github.io
+Blog   : https://zhangman523.cn
 
 ---
 
@@ -10,6 +10,6 @@ Blog   : https://zhangman523.github.io
 
 ![](./gif/game-snake.gif)
 
-介绍看[Blog](https://zhangman523.github.io/android%20game/2018/01/02/Android-Snake-Game/)
+介绍看[Blog](https://www.zhangman523.cn/18.html)
 
 [LICENSE](./LICENSE)
